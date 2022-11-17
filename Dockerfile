@@ -19,4 +19,4 @@ COPY . ./
 # exposing our django port: 8080
 EXPOSE 8080
 
-CMD ["/bin/sh", "/search/runserver.sh"]
+CMD ["/bin/sh", "/saison_omni/runserver.sh"]
